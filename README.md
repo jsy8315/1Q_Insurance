@@ -12,14 +12,22 @@
 
 ## 2. 프로젝트 구성
 ### 2-1. 주요기능 01 : 8대 질환 예측과 이를 통한 보험 추천
+![007](https://github.com/jsy8315/1Q_Insurance/assets/110025650/189a06a4-eb4e-4925-bcf5-86800a8dd8b6)
 ### 2-2. 주요기능 02 : 보험금 청구
+![010](https://github.com/jsy8315/1Q_Insurance/assets/110025650/c38e1283-d472-4199-bd1d-6ccd7e5f87a5)
 ### 2-3. 보험 상품 가입 및 청구 심사
+![011](https://github.com/jsy8315/1Q_Insurance/assets/110025650/3101db2e-e288-4c50-a211-7a90c44abec0)
+
 
 ## 3. 프로젝트 아키텍쳐
 ### 3-1. 서비스 아키텍쳐
+![012](https://github.com/jsy8315/1Q_Insurance/assets/110025650/caa39b2e-6afb-454a-96ff-50598d848f7d)
 ### 3-2. 시스템 아키텍쳐
+![013](https://github.com/jsy8315/1Q_Insurance/assets/110025650/d1bb5362-d716-4d82-a9f9-475ee80aeeb2)
 ### 3-3. 외부 적용 기술
+![014](https://github.com/jsy8315/1Q_Insurance/assets/110025650/4a436f40-4a4a-44ab-8f9a-e7e81c98fa82)
 ### 3-4. ERD
+![027](https://github.com/jsy8315/1Q_Insurance/assets/110025650/a878a186-8554-43aa-b5fb-fe5655c37424)
 
 ## 4. 프로젝트 결과
 ### 4-1. 발표 PPT
