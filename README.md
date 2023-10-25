@@ -1,2 +1,1 @@
-# 1Q_Insurance
-KOPO_Fianl_Project
+# 가입, 심사, 청구까지 빠르게 한번에 원큐보험
