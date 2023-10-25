@@ -1,0 +1,78 @@
+.sample-card {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.profile-section {
+    flex: 1;
+    padding-left: 30px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+
+.info-section {
+    flex: 2;
+    padding-left: 10px;
+}
+
+.info-button {
+    background-color: #00a39e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.card-section {
+    flex: 2;
+    background-color: #00a39e;  /* 배경색을 파랑으로 설정 */
+    padding: 16px;
+    border-radius: 8px;
+    color: white;  /* 텍스트 색을 하얀색으로 설정 */
+}
+
+.sample-card2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-section-arrow {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 16px;
+    border-radius: 8px;
+    position: relative;
+}
+.arrow {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #00a39e;
+}
+
+/* 아이디별로 배경색이나 스타일을 다르게 할 수 있습니다. */
+#request-card {
+    background-color: #f0f0f0;
+}
+#review-card {
+    background-color: #e0e0e0;
+}
+#approval-card {
+    background-color: #f0f0f0;
+}
+
+

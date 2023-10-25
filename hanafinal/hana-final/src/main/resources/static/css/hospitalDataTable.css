@@ -1,0 +1,31 @@
+
+
+.medicalTestTable {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: white;  /* 테이블 내부 배경 흰색으로 */
+    border-radius: 8px;  /* 테이블의 꼭지점을 둥글게 */
+    overflow: hidden;  /* 둥글게 잘린 모서리 부분을 숨김 */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.medicalTestTable th {
+    padding: 8px;
+    text-align: center;
+}
+
+.medicalTestTable td {
+    padding: 8px;
+    text-align: center;
+    border-top: 1px dashed gray;
+    border: 1px solid #ccc;
+}
+
+.medicalTestTable thead th {
+    background-color: #E9F2F1; /* 테이블 헤더 배경색 */
+    border: 1px solid #ccc;
+}

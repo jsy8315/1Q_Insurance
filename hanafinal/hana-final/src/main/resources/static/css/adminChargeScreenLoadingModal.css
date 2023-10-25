@@ -1,0 +1,71 @@
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+    position: relative;
+    margin: 15% auto;
+    padding: 20px;
+    min-height: 400px;
+    width: 800px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loading-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%; /* 높이를 100%로 설정하여 내부 아이템을 중앙에 배치 */
+}
+
+.loading-div p {
+    margin-top: 10px;
+    font-size: 28px; /* 문구의 글자 크기를 28px로 설정 */
+}
+
+.completed-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%; /* 높이를 100%로 설정하여 내부 아이템을 중앙에 배치 */
+    font-size: 24px;
+}
+
+.completed-div p {
+    margin-top: 10px;
+    font-size: 28px; /* 문구의 글자 크기를 28px로 설정 */
+}
+
+.spinner {
+    margin-bottom: 30px;  /* 여백을 추가하여 문구와 겹치지 않게 함 */
+    border: 8px solid #f3f3f3;  /* Light grey */
+    border-top: 8px solid #00a39e;  /* Blue */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    animation: spinner 3s linear infinite;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
