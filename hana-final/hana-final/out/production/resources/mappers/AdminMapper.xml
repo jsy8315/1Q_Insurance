@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="hana.hanafinal.admin.AdminMapper">
+    <select id="findAll">
+        SELECT * FROM InsuranceProduct
+    </select>
+
+    <select id="getJoinRequests">
+        SELECT *
+            FROM MyProduct
+                 WHERE status = 1
+    </select>
+
+    <select id="getClaimRequests">
+        SELECT c.*, ip.*
+        FROM Claim c
+                 INNER JOIN InsuranceProduct ip ON c.myProductId = ip.InsuranceProductID
+        WHERE c.claimstatus = 1
+    </select>
+
+    <select id="getClaimById">
+        SELECT c.*, ip.*
+        FROM Claim c
+                 INNER JOIN InsuranceProduct ip ON c.myProductId = ip.InsuranceProductID
+        WHERE c.claimstatus = 1 AND c.claimid = #{claimId}
+    </select>
+
+    <select id="getDiagnosisByClaimId">
+        SELECT * FROM Diagnosis
+    </select>
+
+    <select id="getUsersBymyproductId">
+        SELECT u.*
+        FROM MyProduct mp  -- MyProduct 테이블을 mp라는 별칭으로 참조
+                    -- MyProduct 테이블과 Users 테이블을 userId와 Id 컬럼을 기준으로 INNER JOIN
+                 INNER JOIN Users u ON mp.userId = u.Id
+        WHERE mp.myproductId = #{myproductId}
+    </select>
+
+    <select id="getInsuranceProductsBymyproductId">
+        SELECT ip.*
+        FROM MyProduct mp  -- MyProduct 테이블을 mp라는 별칭으로 참조
+        -- MyProduct 테이블과 Users 테이블을 userId와 Id 컬럼을 기준으로 INNER JOIN
+                 INNER JOIN InsuranceProduct ip ON mp.insuranceProductId = ip.InsuranceProductId
+        WHERE mp.myproductId = #{myproductId}
+    </select>
+
+    <select id="getBiowalletBymyproductId">
+        SELECT  b.*
+        FROM MyProduct mp  -- MyProduct 테이블을 mp라는 별칭으로 참조
+        -- MyProduct 테이블과 Users 테이블을 userId와 Id 컬럼을 기준으로 INNER JOIN
+                 INNER JOIN BIOWALLET b ON mp.userId = b."userId"
+        WHERE mp.myproductId = #{myproductId}
+    </select>
+
+    <update id="updateMyProduct">
+        UPDATE MyProduct SET
+            status = 0
+        WHERE myproductId = #{myproductId}
+    </update>
+
+</mapper>

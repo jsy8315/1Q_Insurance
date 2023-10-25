@@ -1,0 +1,175 @@
+/* Include CSS Normalize */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 2em;
+    float: left;
+    width: 100%;
+}
+
+a {
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #222;
+}
+a:hover {
+    color: #00a39e;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    float: left;
+    margin: 0 0 2em;
+}
+table thead {
+    border-bottom: 3px solid #00a39e;
+}
+table thead th {
+    padding: 0.35em 0 0.35em;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Helvetica", "Helvetica Neue", "Arial", sans-serif;
+    font-size: 1.25em;
+}
+table tbody {
+    border-bottom: 3px solid #00a39e;
+}
+table tbody tr {
+    border-bottom: 2px solid #ddd;
+}
+table tbody tr td {
+    padding: 0.75em 0;
+}
+table tbody tr td a {
+    color: #00a39e;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0.5em 0 0;
+}
+table tbody tr td a:hover, table tbody tr td a:active, table tbody tr td a:focus {
+    color: #006687;
+    border: none;
+}
+table tfoot td {
+    padding: 0.35em 0 0.35em;
+    text-align: left;
+    font-family: "Helvetica", "Helvetica Neue", "Arial", sans-serif;
+    font-size: 1.25em;
+}
+
+@media screen and (min-width: 1000px) {
+    table {
+        width: 100%;
+    }
+    table thead {
+        border-bottom: 3px solid #00a39e;
+    }
+    table tbody tr {
+        border-bottom: 1px solid #ddd;
+    }
+}
+#rwd-table {
+    display: block;
+    width: 100%; /* 원하는 가로 길이로 설정 */!important;
+    margin: 0 auto; /* 중앙 정렬 */!important;
+}
+#rwd-table tbody {
+    border: none;
+}
+#rwd-table tbody, #rwd-table th, #rwd-table td, #rwd-table tr, #rwd-table tfoot {
+    display: block;
+}
+#rwd-table thead {
+    display: none;
+}
+#rwd-table tr {
+    float: left;
+    width: 100%;
+    margin: 0 0 1em;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 5px 0px #ddd;
+    border-radius: 4px;
+    border-top: 5px solid #00a39e;
+}
+#rwd-table tr td {
+    padding: 0.5em 0.5em 0.5em 50%;
+    float: left;
+    width: 100%;
+}
+#rwd-table tr td:before {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 0.5em 0.5em 0.5em 0;
+    clear: both;
+    margin: -0.5em 0 0 -100%;
+    font-family: "Helvetica", "Helvetica Neue", "Arial", sans-serif;
+    font-size: 1.125em;
+}
+@media screen and (min-width: 600px) {
+    #rwd-table {
+        display: table;
+        border: none;
+        width: 100%; /* 원하는 가로 길이로 설정 */!important;
+        margin: 0 auto; /* 중앙 정렬 */!important;
+    }
+    #rwd-table tbody {
+        border-bottom: 3px solid #00a39e;
+    }
+    #rwd-table th, #rwd-table td {
+        display: table-cell;
+    }
+    #rwd-table tr {
+        display: table-row;
+        border: none;
+        border-bottom: 1px solid #eee;
+        float: none;
+        margin: 0;
+        box-shadow: none;
+    }
+    #rwd-table tr td {
+        padding: 0.75em 0 0.75em 0.25em;
+        float: none;
+        width: auto;
+    }
+    #rwd-table tr td:before {
+        padding: 0 !important;
+    }
+    #rwd-table thead {
+        display: table-header-group;
+    }
+    #rwd-table tbody, #rwd-table tfoot {
+        display: table-row-group;
+    }
+    #rwd-table tr:nth-of-type(even) {
+        background: none;
+    }
+}
+
+#rwd-table-large {
+    display: block;
+}
+#rwd-table-large tbody {
+    border: none;
+}
+#rwd-table-large tbody, #rwd-table-large th, #rwd-table-large td, #rwd-table-large tr, #rwd-table-large tfoot {
+    display: block;
+}
+#rwd-table-large thead {
+    display: none;
+}
+#rwd-table-large tr {
+    float: left;
+    width: 100%;
+    margin: 0 0 1em;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 5px 0px #ddd;
+    border-radius: 4px;
+    border-top: 5px solid #00a39e;
+}
