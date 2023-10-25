@@ -2,6 +2,7 @@
 ![001](https://github.com/jsy8315/1Q_Insurance/assets/110025650/5a8a7f4c-4831-42e6-b565-accdbc148b3c)
 
 
+
 ## 1. 프로젝트 개요
 ### 1-1. 프로젝트 기획 배경
 ![003](https://github.com/jsy8315/1Q_Insurance/assets/110025650/c0562ffd-d265-4666-8897-fdfc03d71bd4)
@@ -13,6 +14,7 @@
 ![019](https://github.com/jsy8315/1Q_Insurance/assets/110025650/115d5324-6c4d-4a99-b2cf-409cd2c1539e)
 
 
+
 ## 2. 프로젝트 구성
 ### 2-1. 주요기능 01 : 8대 질환 예측과 이를 통한 보험 추천
 ![007](https://github.com/jsy8315/1Q_Insurance/assets/110025650/189a06a4-eb4e-4925-bcf5-86800a8dd8b6)
@@ -20,6 +22,7 @@
 ![010](https://github.com/jsy8315/1Q_Insurance/assets/110025650/c38e1283-d472-4199-bd1d-6ccd7e5f87a5)
 ### 2-3. 보험 상품 가입 및 청구 심사
 ![011](https://github.com/jsy8315/1Q_Insurance/assets/110025650/3101db2e-e288-4c50-a211-7a90c44abec0)
+
 
 
 ## 3. 프로젝트 아키텍쳐
@@ -33,8 +36,11 @@
 ![027](https://github.com/jsy8315/1Q_Insurance/assets/110025650/a878a186-8554-43aa-b5fb-fe5655c37424)
 
 
+
 ## 4. 프로젝트 결과
 ### 4-1. 발표 PPT
 ### 4-2. 프로젝트 시연 영상
+
+
 
 ## 5. 자기소개 
