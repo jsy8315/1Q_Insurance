@@ -1,5 +1,7 @@
 # 가입, 심사, 청구까지 빠르게 한번에 원큐보험
 ![001](https://github.com/jsy8315/1Q_Insurance/assets/110025650/5a8a7f4c-4831-42e6-b565-accdbc148b3c)
+
+
 ## 1. 프로젝트 개요
 ### 1-1. 프로젝트 기획 배경
 ![003](https://github.com/jsy8315/1Q_Insurance/assets/110025650/c0562ffd-d265-4666-8897-fdfc03d71bd4)
@@ -9,6 +11,7 @@
 ![006](https://github.com/jsy8315/1Q_Insurance/assets/110025650/019db735-4a99-4c57-825d-e9e3fb3043ba)
 ### 1-4. 프로젝트 일정
 ![019](https://github.com/jsy8315/1Q_Insurance/assets/110025650/115d5324-6c4d-4a99-b2cf-409cd2c1539e)
+
 
 ## 2. 프로젝트 구성
 ### 2-1. 주요기능 01 : 8대 질환 예측과 이를 통한 보험 추천
@@ -28,6 +31,7 @@
 ![014](https://github.com/jsy8315/1Q_Insurance/assets/110025650/4a436f40-4a4a-44ab-8f9a-e7e81c98fa82)
 ### 3-4. ERD
 ![027](https://github.com/jsy8315/1Q_Insurance/assets/110025650/a878a186-8554-43aa-b5fb-fe5655c37424)
+
 
 ## 4. 프로젝트 결과
 ### 4-1. 발표 PPT
