@@ -2,7 +2,6 @@
 ![001](https://github.com/jsy8315/1Q_Insurance/assets/110025650/5a8a7f4c-4831-42e6-b565-accdbc148b3c)
 
 
-
 ## 1. 프로젝트 개요
 ### 1-1. 프로젝트 기획 배경
 ![003](https://github.com/jsy8315/1Q_Insurance/assets/110025650/c0562ffd-d265-4666-8897-fdfc03d71bd4)
