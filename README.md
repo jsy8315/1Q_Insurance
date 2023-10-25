@@ -40,7 +40,7 @@
 ### 4-1. 발표 PPT
 [가입,심사,청구까지_빠르게한번에_원큐보험.pdf](https://github.com/jsy8315/1Q_Insurance/files/13163416/_._.pdf)
 ### 4-2. 프로젝트 시연 영상
-
+[시연영상](https://youtu.be/ukV06jYoGck?feature=shared)
 
 
 ## 5. 자기소개 
